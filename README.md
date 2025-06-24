@@ -106,7 +106,7 @@ helm install cert-manager jetstack/cert-manager \
 helm repo add rancher-stable https://releases.rancher.com/server-charts/stable
 helm upgrade --install rancher rancher-stable/rancher \
    --namespace cattle-system \
-   --set hostname=rancher.xb.uz \
+   --set hostname=rancher.micros.uz \
    --set releases=1 \
    --create-namespace
 ```
